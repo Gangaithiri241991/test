@@ -1,0 +1,96 @@
+li{
+  list-style: none;
+  
+
+}
+.header {
+  display: flex;
+  justify-items: left;
+  padding-left:50px;
+  padding-top: 12px;
+  
+  
+}
+.header1{
+  
+  
+  width:100%;
+  padding: 2rem 9%;
+  height:"23px";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.logo{
+  
+  color:var(--text-color);
+  
+  cursor:default;
+  padding-top:25px;
+  padding-left:15px;
+ 
+}
+.navbar1 a{
+  font-size: 0.5rem;
+  color:var(--text-color);
+  margin-left:3.2rem;
+  transition: .3s;
+  text-align:left;
+}
+.navbar1 a:hover{
+  color:green;
+}
+.car{
+  height: 1150px;
+  width: 1150px;
+  background-color: blue;
+}
+.section2{
+  color:blue;
+  font-size: 12px;
+  text-align: center;
+ 
+}
+.car2{
+ 
+  font-size: 12px;
+  
+}
+.sect2{
+  color:blue;
+  font-size: 12px;
+  text-align: center;
+  
+}
+.card-container{
+  display:flex;
+  justify-items:center;
+  padding-left: 25px;
+  justify-content: space-between;
+  align-items: center;
+  
+
+
+}
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.3s;
+  box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+.card:hover {
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  background-color: green;
+  color:white;
+  opacity: 1;
+}
